@@ -1,0 +1,201 @@
+/* style.css */
+* { 
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+li { list-style-type: none;}
+a {
+  text-decoration: none;
+  color: #2e2e2e;
+}     
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+}
+#main_header {
+  width: 1200px;
+  height: 160px;
+  position: relative;
+  margin: 0 auto;
+  background: #ccc;
+}
+#main_header > h1 {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+/* gnb */
+#gnb {
+  position: relative;
+  background: #eee;
+  width: 675px;
+  margin: 0 auto;
+}
+#gnb > .depth1 {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+}
+#gnb > .depth1 > li {
+  float: left;
+  width: 135px;
+  text-align: center;
+}
+#gnb > .depth1 > li > a {
+  height: 20px;
+  display: block;
+  line-height: 20px;
+}
+
+/* 2depth menu */
+#gnb .depth2 {
+  padding-top: 70px;
+  font-size: 16px;
+  height: 200px;
+  width: 135px;
+  display: none;
+  outline: 2px solid pink;
+}
+#gnb .depth2 > li {
+  margin-bottom: 10px;
+}
+#gnb .depth2 > li >a:hover {
+  color: gray;
+}
+#login{
+position: relative;
+width: 150px;
+height: 30px;
+}
+#login > .login_photo {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+  outline: 1px solid blue;
+  right: 0px;
+}
+#login > .login_photo > li {
+  float: left;
+  width: 50px;
+  text-align: center;
+}
+#login > .login_photo > li > a {
+  float: right;
+}
+
+/* bxslider */
+section#visual {
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+#visual > img {
+  width: 100%;
+}
+section#title {
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+section {
+  text-align: center;
+}
+section h2 {
+  font-size: 60px;
+  font-family: 'Noto Sans HK', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #2e2e2e;
+  text-transform: uppercase;
+}
+section h3 {
+  font-size: 37px;
+  color: #565656;
+}
+/* 타이틀 이미지 */
+
+section > img {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 500px;
+}
+.location {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+#map > img {
+  width: 1200px;
+  height: 1200px;
+  padding-top: 100px;
+}
+
+/* 커피나무 본사위치 */
+#main {
+  width: 1200px;
+  height: 220px;
+  margin: 0 auto;
+  text-align: left;
+  /* outline: 2px solid green; */
+  padding-top: 150px;
+  padding-bottom: 140px;
+}
+.line {
+  width: 1200px;
+  display: inline-block;
+  border-bottom: 5px solid black;
+}
+
+#section {
+  width: 1200px;
+  outline: 2px solid red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+
+/* footer */
+#main_footer {
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 400px;
+  outline: 2px solid red;
+  margin: 0 auto;
+  text-align: center;
+  background: black;
+  color: white;
+}
+#main_footer > .footer_logo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#main_footer > .footer_logo > img {
+  width: 210px;
+  height: 146px;
+}
+
+.footer_menu1 a { 
+  color: white;
+  font-size: 20px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+#main_footer > .footer_menu1 > li {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+#main_footer > .footer_menu2 > li {
+  outline: 1px solid white;
+  display: inline-block;
+  padding-right: 20px;
+  margin-bottom: 10px;
+} 
